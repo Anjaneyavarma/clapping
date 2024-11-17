@@ -1,0 +1,120 @@
+.App {
+  margin: auto;
+  padding: auto;
+  width: calc(100vh - 210px);
+}
+
+.header-logo{
+  height: 48.7px;
+  width: 263px;
+  
+}
+
+.homepageimg{
+  max-height: 350px;
+  max-width: 400px;
+}
+
+.apphome-cont{
+  height: 100%;
+}
+
+.headerhome{
+  height: 75px;
+  width: 100%;
+  background-image: url(./assets/v960-ning-29.png);
+}
+
+.apphome{
+  height: calc(100vh - 80px);
+  background-image: url(./assets/v960-ning-29.png);
+}
+
+.polygon1{
+  clip-path: polygon(0% 100%, 0% 0%, 100% 21%, 100% 86%);
+}
+.polygon2{
+  clip-path: polygon(0% 86%, 0% 21%, 100% 0%, 100% 100%);
+}
+.page2{
+  position: relative;
+  top: -180px;
+  opacity: 1;
+}
+
+.page7{
+  position: relative;
+  top: -180px;
+  opacity: 1;
+}
+
+.page3{
+  position: relative;
+  top: -180px;
+  opacity: 1;
+  height: calc(100vh - 240px);
+}
+
+.page6{
+  position: relative;
+  opacity: 1;
+  height: calc(100vh - 240px);
+}
+
+.page4{
+  position: relative;
+  top: -180px;
+  opacity: 1;
+}
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 75px;
+  color: white;
+  width: 100%;
+  padding-left: 120px;
+}
+
+.page3-img{
+  height: 190%
+}
+
+.brand-link{
+  border: solid 2px grey;
+  text-align: center;
+  width: 50%;
+  border-radius: 20px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.border-box-3{
+  border: solid 2px white;
+  border-radius: 20px;
+  width: 100%;
+  text-align: center;
+  color: #B2913B;
+  opacity: 1;
+  background: #FFE6A5 0% 0% no-repeat padding-box;
+}
+
+.border-box-3 p{
+  padding: 14px;
+  font: normal;
+  font-size: 15px;
+  color: '#B2913B';
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
